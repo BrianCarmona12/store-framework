@@ -1,15 +1,17 @@
 {
   "menu-item#major-appliances": {
-      "props": {
-      "type": "custom",
+      "props": 
+    {
+      "type": "category",
       "highlight": true,
       "itemProps": {
+        "categoryId": 1,
         "text": "Major Aplliances"
-      },
-      "blocks": [
+      }
+    },
+    "blocks": [
         "vtex.menu@2.x:submenu#major"
-      ]
-    }
+    ]
   },
   "menu-item#small-appliances": {
       "props":
